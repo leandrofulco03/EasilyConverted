@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #3C3A82;
+    --secondary-color: #FFD700;
+    --third-color: #212051;
+}
+
+.navbar {
+    background-color: var(--third-color);
+}
+.navbar-brand img {
+    width: 50px;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
