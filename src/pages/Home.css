@@ -1,3 +1,7 @@
+.home_container {
+    background-color: #e8e8e8;
+}
+
 /* BANNER */
 .banner_container {
     width: 100%;
@@ -20,7 +24,7 @@
 }
 
 .banner_img {
-    width: 25%;
+    width: 30%;
     position: relative;
     z-index: 1;
     bottom: 13rem;
@@ -63,16 +67,133 @@
 
 /* CAROUSEL */
 .carousel {
-    width: 100%;
-    height: 100px;
+    height: 150px;
     display: flex;
     align-items: center;
     background-color: #3C3A82;
 }
-.carousel-inner {
+
+.carousel-item > h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* TEXT_INFO */
+.text_info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_info > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 800px;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+/* EMPLOYMENT */
+.employment {
+    margin: 80px auto;
+    height: 300px;
+    background: #24224d;
+    width: 220px;
+    border-radius: 3em;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.employment h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.employment p {
+    text-align: center;
+}
+
+.btn_primary {
+    border-radius: 1em;
+    border: none;
+    padding: 5px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #464398;
+    color: #fff;
+}
+.btn_primary:hover {
+    background: #6d6ab6;
+}
+
+/* CARDS CONTAINER */
+.cards_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_container h1 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+.cards_container h1 > span {
+    font-weight: 700;
+}
+
+.cards_div {
     display: flex;
     justify-content: center;
 }
-.carousel-item > h3 {
+.card {
+    width: 190px;
+    height: 240px;
+    background-image: linear-gradient(180deg, #5742b9 60%, #24224d,#ffd700); 
+    border: none;
+    padding: 2rem;
+    position: relative;
+    margin: 1rem;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 1.3em;
+   }
+   
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #24224d;
     color: #fff;
-}
+    font-weight: 600;
+   }
+   
+   .card button:hover {
+    background: #4740d4;
+    color: #ffffff;
+   }
